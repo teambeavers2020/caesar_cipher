@@ -396,11 +396,3 @@ if __name__ == '__main__':
     # msg_2 = EncryptedSubMessage(encrypted_msg_1)
     # print("Decrypted message:", msg_2.decrypt_message())
 
-
-
-    plain_text = "I Love Baby Gyi!! <3<3<3"
-    encoded_story = PlaintextMessage(plain_text, 5) # create an instance
-    print("\nencrypted story: \n", encoded_story.get_message_text_encrypted())
-
-    decoded_story  = CipherTextMessage("N Qtaj Gfgd Ldn!! <3<3<3") # create an instance
-    print("\ndecoded story: \n", decoded_story.decrypt_message())
